@@ -1,3 +1,11 @@
+#The diamonds dataset contains the price, cut, color, and other characteristics of a sample of nearly 54,000 diamonds. This data can be used to predict the price of a diamond based on its characteristics. Use sklearn's LinearRegression() function to predict the price of a diamond from the diamond's carat and table values.
+
+#Import needed packages for regression.
+#Initialize and fit a multiple linear regression model.
+#Get the estimated intercept weight.
+#Get the estimated weights of the carat and table features.
+#Predict the price of a diamond with the user-input carat and table values.
+
 # Import needed packages for regression
 # Your code here
 import numpy as np
