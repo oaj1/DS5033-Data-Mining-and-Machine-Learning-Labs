@@ -1,3 +1,14 @@
+#The dataset fg_attempts.csv contains data on field goal distance and outcome (whether or not the kick was successful) during the 2012 NFL seasons.
+
+#Create a dataframe X with input features Distance and ScoreDiffPreKick.
+#Create a dataframe y with output feature Outcome.
+#Flatten y into an array called yArray using np.ravel().
+#Initialize a logistic regression model using LogisticRegression().
+#Fit the model to the input and flattened output features in X and yArray.
+#Create a new dataframe XNew with user-input values for Distance and ScoreDiffPreKick.
+#Use the fitted logistic regression model to predict the outcome from the new data.
+#Determine the accuracy of a fitted logistic regression classification model.
+
 # Import the necessary modules
 import numpy as np
 import pandas as pd
