@@ -1,3 +1,11 @@
+#The msleep.csv dataset contains information on sleep habits for 83 mammals. Features include total sleep, length of the sleep cycle, time spent awake, brain weight, and body weight. Animals are also labeled with their name, genus, and conservation status. The dataframes mammalSimple, mammalKnn, and mammalIter contain the features sleep_rem, sleep_cycle, awake, brainwt.
+
+#Initialize and fit a simple imputer to the mammalSimple dataframe using the most frequent value of each feature. Fill the missing value for each feature in mammalSimple.
+#Initialize a knn imputer with 4 neighbors and weights assigned by distance. Fit the knn imputer to the mammalScaled dataframe and fill the missing value for each feature.
+#Initialize and fit an iterative imputer with 100 imputation iterations to the mammalIter dataframe. Fill the missing value for each feature in mammalIter.
+
+
+
 import pandas as pd
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import SimpleImputer
