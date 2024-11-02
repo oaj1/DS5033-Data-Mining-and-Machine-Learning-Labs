@@ -30,3 +30,8 @@ print(f'The slope of the linear regression line is {slope[0]:.3f}. ')
 # Compute the proportion of variation explained by the linear regression using the score method
 score = SLRModel.score(X, y)
 print(f'The proportion of variation explained by the linear regression model is {score:.3f}. ')
+
+
+#The intercept of the linear regression line is -46.917. 
+#The slope of the linear regression line is 0.031. 
+#The proportion of variation explained by the linear regression model is 0.069.
