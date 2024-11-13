@@ -1,3 +1,13 @@
+#The dataset SDSS contains 17 observational features and one class feature for 10000 deep sky objects observed by the Sloan Digital Sky Survey. Use sklearn's KNeighborsClassifier() function to perform kNN classification to classify each object by the object's redshift and u-g color.
+
+#Import the necessary modules for kNN classification
+#Create dataframe X with features redshift and u_g
+#Create dataframe y with feature class
+#Initialize a kNN model with k=3
+#Fit the model using the training data
+#Find the predicted classes for the test data
+#Calculate the accuracy score using the test data
+
 # Import needed packages for classification
 import pandas as pd
 import numpy as np
